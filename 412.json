@@ -1,0 +1,15 @@
+/*
+O cliente indicou nos seus cabeçalhos pré-condições que o servidor não atende.
+*/
+
+{
+    "errors": [
+        {
+            "message": "The client has indicated in its precondition headers that the server does not respond.",
+            // "parameter_name": "",
+            "type": "precondition_failed"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

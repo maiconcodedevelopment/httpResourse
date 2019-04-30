@@ -1,0 +1,15 @@
+/*
+Esta resposta será enviada quando o conteúdo requisitado foi deletado do servidor.
+*/
+
+{
+    "errors": [
+        {
+            "message": "the requested content has been deleted from the server.",
+            // "parameter_name": "",
+            "type": "gone"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

@@ -1,0 +1,16 @@
+/*
+ Esta resposta de erro é dada quando o servidor está atuando como um gateway e não obtém uma resposta à tempo.
+*/
+
+
+{
+    "errors": [
+        {
+            "message": "you do not get a response to the time",
+            // "parameter_name": "",
+            "type": "gateway_timeout"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

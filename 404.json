@@ -1,0 +1,17 @@
+/*
+    O servidor não pode encontrar o recurso solicitado. 
+    Este código de resposta talvez seja o mais famoso devido à frequência com que acontece na web.
+*/
+
+
+{
+    "errors": [
+        {
+            "message": "The server can not find the requested resource",
+            // "parameter_name": "",
+            "type": "not_found"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

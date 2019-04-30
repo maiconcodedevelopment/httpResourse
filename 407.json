@@ -1,0 +1,16 @@
+/*
+Semelhante ao 401 porem é necessário que a autenticação seja feita por um proxy.
+*/
+
+
+{
+    "errors": [
+        {
+            "message": "authentication is done by a proxy.",
+            // "parameter_name": "",
+            "type": "proxy_authentication_required"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

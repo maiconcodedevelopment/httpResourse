@@ -1,0 +1,19 @@
+/*
+Essa resposta significa que o servidor não entendeu a requisição pois está com uma sintaxe inválida
+*/
+
+{
+    "errors": [
+        {
+            "message": "api_key está faltando",
+            "parameter_name": [
+                {
+                    "typeinput" : "input not default"
+                }
+            ],
+            "type": "invalid_parameter"
+        }
+    ],
+    "method": "get|post|put|path",
+    "url": "http://*******"
+}

@@ -1,0 +1,16 @@
+/*
+O servidor encontrou uma situação com a qual não sabe lidar.
+*/
+
+
+{
+    "errors": [
+        {
+            "message": "The server encountered a situation with which it can not cope.",
+            // "parameter_name": "",
+            "type": "internal_server_error"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

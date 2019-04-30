@@ -1,0 +1,11 @@
+/*
+A requisição foi bem sucessida e um novo recurso foi 
+criado como resultado. Esta é uma tipica resposta enviada após uma requisição POST.
+*/
+
+{
+    "id" : 0,
+    "name" : "default",
+    "email" : "maria@gmail.com",
+    "password" : "douglas"
+}

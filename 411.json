@@ -1,0 +1,15 @@
+/*
+ O servidor rejeitou a requisição porque o campo Content-Length do cabeçalho não está definido e o servidor o requer.
+*/
+
+{
+    "errors": [
+        {
+            "message": "the Content-Length field of the header is not defined and the server requires it.",
+            // "parameter_name": "",
+            "type": "length_required"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

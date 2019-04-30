@@ -1,0 +1,21 @@
+/*
+Reservado para uso futuro. A intenção original era que esse código pudesse ser usado como parte
+ de alguma forma de dinheiro digital ou de micro pagamento regime, mas isso não aconteceu, e esse código não é usado normalmente.
+
+
+ Este código de resposta está reservado para uso futuro. O objetivo inicial da criação deste código era usá-lo 
+ para sistemas digitais de pagamento porém ele não está sendo usado atualmente.
+
+*/
+
+{
+    "errors": [
+        {
+            "message": "but it is not currently being used.",
+            // "parameter_name": "",
+            "type": "payment_required"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

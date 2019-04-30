@@ -1,0 +1,15 @@
+/*
+Esta resposta será enviada quando uma requisição conflitar com o estado corrente do servidor.
+*/
+
+{
+    "errors": [
+        {
+            "message": "conflict with the current state of the server.",
+            // "parameter_name": "",
+            "type": "conflict"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

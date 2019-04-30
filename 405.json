@@ -1,0 +1,17 @@
+/*
+ O método de solicitação é conhecido pelo servidor, mas foi desativado e não pode ser usado. Os dois métodos obrigatórios,
+ GET e HEAD, nunca devem ser desabilitados e não devem retornar este código de erro.
+*/
+
+
+{
+    "errors": [
+        {
+            "message": "Client does not have access rights to content",
+            // "parameter_name": "",
+            "type": "method_not_allowed"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

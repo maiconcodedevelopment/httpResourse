@@ -1,0 +1,23 @@
+/*
+
+O cliente não tem direitos de acesso ao conteúdo portanto o servidor está rejeitando dar a resposta. 
+Diferente do código 401, aqui a identidade do cliente é conhecida.
+
+O pedido é reconhecido pelo servidor mas este recusa-se a executá-lo. Ao contrário resposta "401 Não Autorizado", 
+autenticação não fará diferença e o pedido não deve ser requisitado novamente.
+
+*/
+
+{
+    "errors": [
+        {
+            "message": "Client does not have access rights",
+            // "parameter_name": [
+            //     { "limit" : "sdimf" }
+            // ],
+            "type": "action_forbidden"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}

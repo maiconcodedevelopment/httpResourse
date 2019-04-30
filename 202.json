@@ -1,0 +1,15 @@
+/*
+O servidor processou a solicitação com sucesso, mas não é necessário nenhuma resposta.
+*/
+
+{
+    "errors": [
+        {
+            "message": "The server processed the request successfully, but no response is required.",
+            // "parameter_name": "",
+            "type": "no_content"
+        }
+    ],
+    "method": "get|post|put|path",
+    "url": "http://*******"
+}

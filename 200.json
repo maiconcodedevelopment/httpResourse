@@ -1,0 +1,14 @@
+/* Estas requisição foi bem sucedida. O significado do sucesso varia de acordo com o método 
+HTTP:
+GET: O recurso foi buscado e transmitido no corpo da mensagem.
+HEAD: Os cabeçalhos da entidade estão no corpo da mensagem.
+POST: O recurso descrevendo o resultado da ação e trasmitido no corpo da mensagem.
+TRACE: O corpo da mensagem contem a mensagem de requisição recebida pelo servidor
+*/
+
+{
+    "id" : 0,
+    "name" : "default",
+    "email" : "maria@gmail.com",
+    "password" : "douglas"
+}

@@ -1,0 +1,16 @@
+/*
+Embora o padrão HTTP especifique "unauthorized", semanticamente, essa resposta significa "unauthenticated". 
+Ou seja, o cliente deve se autenticar para obter a resposta solicitada.
+*/
+
+{
+    "errors": [
+        {
+            "message": "the client must authenticate to obtain the requested response",
+            // "parameter_name": "",
+            "type": "unauthenticated"
+        }
+    ],
+    "method": "get",
+    "url": "http://*****"
+}
